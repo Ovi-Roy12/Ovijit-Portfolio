@@ -1,0 +1,93 @@
+.nav-items li a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bg{
+    background-color: #333;
+}
+.custom-btn{
+    background-color: #0DCAF0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    align-items: center;
+    font-weight: bold;
+}
+.banner{
+    padding-top: 50px;
+}
+.heading-txt h1{
+    color: #00FFFF;
+    font-weight: bold;
+    font-size:70px;
+}
+
+.summary-txt{
+    font-size: 14px;
+}
+
+.my-pic{
+    width: 100%;
+    height: auto;
+}
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: typing 3s steps(20) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0; 
+    }
+    100% {
+        width: 80%; 
+    }
+}
+
+.portfolio-txt {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.portfolio-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.myEdu-txt{
+    color: #00FFFF;
+}
+
+.link{
+    font-size: 20px;
+}
+
+.panda-img{
+    width: 100%;
+    max-height: 100vh;
+    margin-top: 30px;
+}
+
+/*----Media Query----*/
+
+@media (max-width: 768px) {
+    .heading-txt h1.typing-animation {
+        font-size: 2rem; 
+    }
+}
+
+@media (min-width: 769px) {
+    .heading-txt h1.typing-animation {
+        font-size: 4rem; 
+    }
+}
+
+
